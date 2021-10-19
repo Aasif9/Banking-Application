@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/transaction_card_view"
+    android:layout_margin="10dp"
+    android:fadingEdge="horizontal"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp"
+    android:layout_marginBottom="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="5dp"
+        android:background="#B4EEB7"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:id="@+id/Username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp">
+
+            <TextView
+                android:id="@+id/t_from_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="name1"
+                android:textColor="#0B0B0B"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/arrow"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginHorizontal="5dp"
+                android:src="@drawable/arrow">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/t_to_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="name2"
+                android:layout_marginTop="10dp"
+                android:textColor="#E05A50"
+                android:textSize="15sp"
+                android:textStyle="bold">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Username"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/t_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="18th Oct,2021"
+                android:textColor="@color/black"
+                android:textSize="15dp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/rupee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs."
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#00070A">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="amount"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="#080309">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/transaction_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Amount"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginRight="2dp"
+            android:text="Success"
+            android:textColor="#630F2C"
+            android:textSize="15sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

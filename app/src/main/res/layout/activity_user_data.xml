@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#D3CBE1"
+    tools:context=".UserData">
+    <ImageView
+        android:padding="5dp"
+        android:src="@drawable/bank_logo"
+        android:requiresFadingEdge="horizontal"
+        android:fadingEdge="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:fontFamily="serif"
+            android:text="Name : "
+            android:textColor="#0F0F10"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/name"
+            android:textAlignment="textStart"
+            android:fontFamily="serif"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:textColor="#090808"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+
+    <!--    <LinearLayout
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:textSize="18sp"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textColor="#070707"
+                android:text="Bank Name: "/>
+
+            <TextView
+                android:id="@+id/bank_name"
+                android:textAlignment="textStart"
+                android:fontFamily="serif"
+                android:textSize="18sp"
+                android:textColor="#090808"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:textSize="18sp"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textColor="#070707"
+                android:text="Bank Branch : "/>
+
+            <TextView
+                android:id="@+id/bank_branch"
+                android:textAlignment="textStart"
+                android:fontFamily="serif"
+                android:textSize="18sp"
+                android:textColor="#090808"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:textSize="18sp"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textColor="#070707"
+                android:text="Account type: "/>
+
+            <TextView
+                android:id="@+id/account_type"
+                android:textAlignment="textStart"
+                android:fontFamily="serif"
+                android:textSize="18sp"
+                android:textColor="#090808"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        -->
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:textSize="18sp"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textColor="#070707"
+                android:text="Account No : "/>
+
+            <TextView
+                android:id="@+id/account_no"
+                android:textAlignment="textStart"
+                android:fontFamily="serif"
+                android:textSize="18sp"
+                android:textColor="#090808"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:textSize="18sp"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textColor="#0A0A0A"
+                android:text="IFSC Code : "/>
+
+            <TextView
+                android:id="@+id/ifsc_id"
+                android:layout_weight="1"
+                android:textAlignment="textStart"
+                android:fontFamily="serif"
+                android:textSize="18sp"
+                android:textColor="#090000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:textSize="18sp"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textColor="#080809"
+                android:text="Email : "/>
+
+            <TextView
+                android:id="@+id/email_id"
+                android:textAlignment="textStart"
+                android:fontFamily="serif"
+                android:textSize="18sp"
+                android:textColor="#0A0900"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:textSize="18sp"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textColor="#080809"
+                android:text="Mobile No : "/>
+
+            <TextView
+                android:id="@+id/phone_no"
+                android:textColor="#070707"
+                android:layout_weight="1"
+                android:textAlignment="textStart"
+                android:fontFamily="serif"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:textSize="18sp"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="#080809"
+            android:text="Mobile No : "/>
+
+        <TextView
+            android:id="@+id/avail_balance"
+            android:textColor="#070707"
+            android:layout_weight="1"
+            android:textAlignment="textStart"
+            android:fontFamily="serif"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/transfer_money"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginRight="60dp"
+                android:background="@drawable/transfer_button"
+                android:fontFamily="@font/averia_serif_libre_light"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:text="Transfer Money"
+                android:textStyle="bold" />
+
+
+
+
+    </LinearLayout>
