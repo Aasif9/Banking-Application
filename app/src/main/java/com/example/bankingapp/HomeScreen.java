@@ -19,10 +19,11 @@ public class HomeScreen extends AppCompatActivity {
         setContentView(R.layout.activity_home_screen);
         logo = findViewById(R.id.logo);
         designed = findViewById(R.id.designed);
-        name = findViewById(R.id.name);
+
         app_name = findViewById(R.id.app_name);
         company = findViewById(R.id.company);
 
+        startEnterAnimation();
     
 
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -44,7 +45,7 @@ public class HomeScreen extends AppCompatActivity {
 
         logo.setVisibility(View.VISIBLE);
         designed.setVisibility(View.VISIBLE);
-        name.setVisibility(View.VISIBLE);
+
         app_name.setVisibility(View.VISIBLE);
         company.setVisibility(View.VISIBLE);
     }
