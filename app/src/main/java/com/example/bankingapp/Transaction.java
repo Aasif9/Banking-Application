@@ -26,6 +26,13 @@ public class Transaction {
         return ToUser;
     }
 
+    public void setToUs(String toUser) {
+        ToUser = toUser;
+    }
+    public String getToUs() {
+        return ToUser;
+    }
+
     public void setToUser(String toUser) {
         ToUser = toUser;
     }
